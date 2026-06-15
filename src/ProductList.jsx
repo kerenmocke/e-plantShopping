@@ -233,7 +233,7 @@ function ProductList({ onHomeClick }) {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        width: '1100px',
+        width: '900px',
     }
     const styleA = {
         color: 'white',
@@ -291,9 +291,9 @@ function ProductList({ onHomeClick }) {
                         <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
                             <h1 className='cart'>
                                 <span className="cart">
-                                    {totalCartItems > 0 && (
+                            
                                     <span className="cart_quantity_count">{totalCartItems}</span>
-                                    )}
+                                    
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="IconChangeColor" height="68" width="68">
                                         <rect width="156" height="156" fill="none"></rect>
                                         <circle cx="80" cy="216" r="12"></circle>
